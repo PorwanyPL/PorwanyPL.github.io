@@ -32,7 +32,7 @@
     <h2>Kim jesteśmy?</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae metus sit amet lorem ultrices 
        fermentum. Donec eget mauris eget odio sodales commodo non non est.</p>
-    <img src="zdjecia\kim-jestesmy.jpg">
+    <img src="kim-jestesmy.jpg">
 </section>
 
 <section class="services">
