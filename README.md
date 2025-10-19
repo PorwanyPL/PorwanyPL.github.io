@@ -47,12 +47,12 @@
         <h3>Marketing</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora magni, pariatur inventore 
            laborum esse officiis fuga?</p>
-        <img src="zdjecia\marketing.jpg">
+        <img src="marketing.jpg">
     </div>
     <div class="service">
         <h3>Web Design</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, omnis.</p>
-        <img src="zdjecia\web-deign.jpg">
+        <img src="web-deign.jpg">
     </div>
 </section>
 
