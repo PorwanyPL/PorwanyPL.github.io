@@ -27,6 +27,11 @@ nav ul li a { color: #fff; text-decoration: none; }
     text-align: center;
 }
 
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+
 .services .service, .blog article, .portfolio .project {
     border: 1px solid #eee;
     padding: 20px;
