@@ -23,12 +23,28 @@ nav ul li a { color: #fff; text-decoration: none; }
 .about, .services, .blog, .portfolio, .contact {
     padding: 40px 20px;
 }
+
+.about img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.service img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
 .services .service, .blog article, .portfolio .project {
     border: 1px solid #eee;
     padding: 20px;
     margin: 10px 0;
     border-radius: 6px;
 }
+
 img { max-height: 400px; max-width: 400px; display: block; border-radius: 6px; }
 
 form input, form textarea, form button {
