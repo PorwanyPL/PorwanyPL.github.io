@@ -29,7 +29,7 @@ nav ul li a { color: #fff; text-decoration: none; }
     margin: 10px 0;
     border-radius: 6px;
 }
-img { max-width: 400px; display: block; border-radius: 6px; }
+img { max-height: 400px; max-width: 400px; display: block; border-radius: 6px; }
 
 form input, form textarea, form button {
     display: block;
