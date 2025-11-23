@@ -54,6 +54,14 @@ nav ul li a { color: #fff; text-decoration: none; }
     margin-top: 15px;
 }
 
+.portfolio img{
+    min-width: 800px;
+}
+
+.portfolio p{
+    font-size: 30px;
+}
+
 img { width: 400px; border-radius: 6px; margin-top: 15px;}
 
 form input, form textarea, form button {
