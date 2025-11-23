@@ -27,8 +27,13 @@ nav ul li a { color: #fff; text-decoration: none; }
     text-align: center;
 }
 
+.serviceH2 {
+    text-align: center;
+}
+
 .services {
     display: flex;
+    flex: 1;
     justify-content: space-around;
 }
 
@@ -39,8 +44,17 @@ nav ul li a { color: #fff; text-decoration: none; }
     border-radius: 6px;
     text-align: center;
 }
+.serviceFlex {
+    display: flex;
+    flex: 1;
+}
+.service-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
 
-img { width: 400px; display: block; border-radius: 6px; }
+img { width: 400px; border-radius: 6px; margin-top: 15px;}
 
 form input, form textarea, form button {
     display: block;
