@@ -71,9 +71,52 @@ form input, form textarea, form button {
     padding: 10px;
 }
 
+.row::before, .row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*='col']{
+    float: left;
+    min-height: 1px;
+}
+
+.col-1 { 
+    width: 33.33%; 
+    padding: 0 120px;
+}
+
+.col-2 { 
+    width: 50%; 
+}
+
+.leftCol{
+    text-align: left;
+}
+.rightCol{
+    text-align: right;
+}
+
+iframe{
+    margin-top: 2px;
+    width: 100%;
+    min-height: 170px;
+    border: 0;
+}
+
 footer {
     background: #111;
     color: #fff;
-    padding: 20px;
+    padding-top: 20px;
     text-align: center;
 }
+
+footer .col-1 p {
+    text-align: center;
+}
+
+.footer-p{
+    background-color: #333;
+}
+
