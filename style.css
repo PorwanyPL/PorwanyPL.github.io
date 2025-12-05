@@ -51,8 +51,13 @@ nav ul li a { color: #fff; text-decoration: none; }
     text-align: center;
 }
 
+.serviceH2 {
+    text-align: center;
+}
+
 .services {
     display: flex;
+    flex: 1;
     justify-content: space-around;
 }
 
@@ -63,8 +68,25 @@ nav ul li a { color: #fff; text-decoration: none; }
     border-radius: 6px;
     text-align: center;
 }
+.serviceFlex {
+    display: flex;
+    flex: 1;
+}
+.service-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
 
-img { width: 400px; display: block; border-radius: 6px; }
+.portfolio img{
+    min-width: 800px;
+}
+
+.portfolio p{
+    font-size: 30px;
+}
+
+img { width: 400px; border-radius: 6px; margin-top: 15px;}
 
 form input, form textarea, form button {
     display: block;
@@ -73,11 +95,55 @@ form input, form textarea, form button {
     padding: 10px;
 }
 
+.row::before, .row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*='col']{
+    float: left;
+    min-height: 1px;
+}
+
+.col-1 { 
+    width: 33.33%; 
+    padding: 0 120px;
+}
+
+.col-2 { 
+    width: 50%; 
+}
+
+.leftCol{
+    text-align: left;
+}
+.rightCol{
+    text-align: right;
+}
+
+iframe{
+    margin-top: 2px;
+    width: 100%;
+    min-height: 170px;
+    border: 0;
+}
+
 footer {
     background: #111;
     color: #fff;
-    padding: 20px;
+    padding-top: 20px;
     text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+footer .col-1 p {
+    text-align: center;
+}
+
+.footer-p{
+    background-color: #333;
+}
+>>>>>>> e4d7ee50d489f9730cc7284b9cd13b5fbc4780d2
 
