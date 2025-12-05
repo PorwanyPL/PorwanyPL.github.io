@@ -22,7 +22,31 @@ nav ul li a { color: #fff; text-decoration: none; }
 }
 .hero h2 { font-size: 32px; margin-bottom: 20px; }
 
-.about, .services, .blog, .portfolio, .contact {
+.opinia {
+    display: flex;
+    display: -webkit-flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.col-50 {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.col-50 p {
+    margin: 10px;
+    text-align: center;
+}
+
+.col-50 img {
+    max-width: 300px;
+}
+
+
+.about, .services, .blog, .portfolio, .contact,  .opinia{
     padding: 40px 20px;
     text-align: center;
 }
@@ -55,3 +79,5 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+
