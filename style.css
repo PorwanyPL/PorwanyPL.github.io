@@ -14,30 +14,60 @@ nav ul { list-style: none; display: flex; }
 nav ul li { margin-left: 20px; }
 nav ul li a { color: #fff; text-decoration: none; }
 
+nav ul li:hover {
+    transform: scale(1.10);
+}
+nav ul li:hover a{
+    color: #ccc;
+    transition: color 0.3s ease;
+}
 .hero {
     background: #ccc;
     padding: 80px 20px;
     text-align: center;
-
 }
 .hero h2 { font-size: 32px; margin-bottom: 20px; }
 
+.hero button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #111;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hero button:hover{
+    transition: background-color 0.3s ease;
+    background-color: #ccc;
+    color: #111;
+}
 .opinia {
     display: flex;
     display: -webkit-flex;
-    
+}
+
+.opinia .container {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.col-50 {
+.opinia .col-50 {
     display: flex;
     width: 50%;
     justify-content: center;
 }
 
-.col-50 p {
-    margin: 10px;
+.opinia .col-50  p {
+    margin: 50px;
+    text-align: center;
+}
+
+.opinia .col-50 div p {
+    font-weight: bold;
+    margin: 0;
     text-align: center;
 }
 
@@ -46,8 +76,8 @@ nav ul li a { color: #fff; text-decoration: none; }
 }
 
 
-.about, .services, .blog, .portfolio, .contact,  .opinia{
-    padding: 40px 20px;
+.about, .services, .blog, .portfolio, .contact, .opinia{
+    padding: 40px 20px 0 20px;
     text-align: center;
 }
 
@@ -61,7 +91,7 @@ nav ul li a { color: #fff; text-decoration: none; }
     justify-content: space-around;
 }
 
-.services .service, .blog article, .portfolio .project {
+.services .service, .blog article, .portfolio .project, .container{
     border: 1px solid #eee;
     padding: 20px;
     margin: 10px 0;
@@ -114,7 +144,9 @@ form input, form textarea, form button {
 .col-2 { 
     width: 50%; 
 }
-
+.col-5{
+    width: 20%;
+}
 .leftCol{
     text-align: left;
 }
@@ -125,7 +157,7 @@ form input, form textarea, form button {
 iframe{
     margin-top: 2px;
     width: 100%;
-    min-height: 170px;
+    min-height: 200px;
     border: 0;
 }
 
@@ -135,9 +167,9 @@ footer {
     padding-top: 20px;
     text-align: center;
 }
-
-<<<<<<< HEAD
-=======
+footer .col-1 {
+    min-height: 250px;
+}
 footer .col-1 p {
     text-align: center;
 }
@@ -145,5 +177,19 @@ footer .col-1 p {
 .footer-p{
     background-color: #333;
 }
->>>>>>> e4d7ee50d489f9730cc7284b9cd13b5fbc4780d2
 
+footer .row > .col-1 > .row .col-5{
+    margin-top: 10px;
+}
+footer i{
+    border-radius: 30px;
+    width: 100%;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+footer i:hover{
+    background-color: #fff;
+    color: #111;
+    transition: all 0.3s ease;
+}
