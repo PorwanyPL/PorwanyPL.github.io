@@ -44,10 +44,6 @@ nav ul li:hover a{
     background-color: #ccc;
     color: #111;
 }
-.opinia {
-    display: flex;
-    display: -webkit-flex;
-}
 
 .opinia .container {
     display: flex;
