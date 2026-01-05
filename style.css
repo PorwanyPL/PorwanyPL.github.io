@@ -104,6 +104,11 @@ nav ul li:hover a{
     margin-top: 15px;
 }
 
+.article-inside{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
 .portfolio img{
     min-width: 800px;
 }
