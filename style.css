@@ -45,6 +45,11 @@ nav ul li:hover a{
     color: #111;
 }
 
+.hero a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .opinia .container {
     display: flex;
     justify-content: center;
