@@ -114,7 +114,7 @@ nav ul li:hover a{
     color: #111;
 }
 
-.article-inside{
+.article-inside, .faq-item{
     margin: 0 auto;
     max-width: 1200px;
 }
