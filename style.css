@@ -1,5 +1,5 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+body { font-family: Arial, sans-serif; font-size: 20px; line-height: 1.6; color: #333; }
 
 header {
     background: #111;
@@ -28,7 +28,7 @@ nav ul li:hover a{
 }
 .hero h2 { font-size: 32px; margin-bottom: 20px; }
 
-.hero button{
+.hero button, .blog button, .faq button{
     padding: 10px 20px;
     font-size: 18px;
     background: #111;
@@ -39,13 +39,13 @@ nav ul li:hover a{
     margin-top: 20px;
 }
 
-.hero button:hover{
+.hero button:hover, .blog button:hover, .faq button:hover{
     transition: background-color 0.3s ease;
     background-color: #ccc;
     color: #111;
 }
 
-.hero a{
+.hero a, .blog a, .faq a{
     text-decoration: none;
     color: inherit;
 }
@@ -77,7 +77,7 @@ nav ul li:hover a{
 }
 
 
-.about, .services, .blog, .portfolio, .contact, .opinia{
+.about, .services, .blog, .portfolio, .contact, .opinia, .faq{
     padding: 40px 20px 0 20px;
     text-align: center;
 }
@@ -109,6 +109,11 @@ nav ul li:hover a{
     margin-top: 15px;
 }
 
+.blog button:hover{
+    background-color: #fff;
+    color: #111;
+}
+
 .article-inside{
     margin: 0 auto;
     max-width: 1200px;
@@ -121,6 +126,12 @@ nav ul li:hover a{
 .portfolio p{
     font-size: 30px;
 }
+
+.faq button:hover{
+    background-color: #fff;
+    color: #111;
+}
+
 
 img { width: 400px; border-radius: 6px; margin-top: 15px;}
 
@@ -182,6 +193,7 @@ footer .col-1 p {
 
 .footer-p{
     background-color: #333;
+    font-size: 16px;
 }
 
 footer .row > .col-1 > .row .col-5{
